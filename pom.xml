@@ -195,14 +195,14 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
-      <plugin>
+     <!--  <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
 					<path>/</path>
 					<port>8002</port>
 				</configuration>
-			</plugin>
+			</plugin> -->
     </plugins>
   </build>
 </project>
