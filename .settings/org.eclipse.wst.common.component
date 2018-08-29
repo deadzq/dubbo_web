@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Day15_MyGoodsManager_Web">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="Day15_My_Pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Day15_MyGoodsManager_Pojo/Day15_MyGoodsManager_Pojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Day15_MyGoodsManager_Intetface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Day15_MyGoodsManager_Intetface/Day15_MyGoodsManager_Intetface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Day15_MyGoodsManager_Web"/>
+        <property name="java-output-path" value="/Day15_MyGoodsManager_Web/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
